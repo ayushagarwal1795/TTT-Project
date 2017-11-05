@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>TTT</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+<script type="text/javascript">
+				function error() {
+					
+					if(document.f1.number.value == "")
+						alert("empty field");
+				}
+				
+			</script>
+
+
+</head>
+
+
+<body >
+
+
+<div id="content">
+Enter a number to see the most repeated words.
+
+</div>
+<div id="indexDiv">
+
+<form name="f1" method=post action="CheckInputFilter" id="form">
+
+<input type=number name=number> 
+<input type=submit value=Click onClick="error()">
+
+
+</form>
+</div>
+
+</body>
+</html>
